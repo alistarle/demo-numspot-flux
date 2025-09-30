@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  labels:
+    kubernetes.io/metadata.name: external-dns
+    name: external-dns
+    pod-security.kubernetes.io/enforce: privileged
+  name: external-dns
