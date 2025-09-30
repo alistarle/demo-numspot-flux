@@ -59,8 +59,8 @@ metadata:
   namespace: flux-system
 spec:
   dependsOn:
-  - crds
-  - namespaces
+  - name: crds
+  - name: namespaces
   interval: 10m0s
   path: ./apps
   prune: true
